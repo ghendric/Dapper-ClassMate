@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+	<Metadata>
+		<Identity Id="Dapper_ClassMate.a983c6fb-b203-4b5f-b9b6-89f09b8f6aab" Version="1.0" Language="en-US" Publisher="George Hendrickson" />
+		<DisplayName>Dapper ClassMate</DisplayName>
+		<Description xml:space="preserve">Dapper ClassMate is a Visual Studio extension that generates Dapper request models, result POCOs, and async repository methods from SQL Server stored procedures, tables, and views—helping you create strongly typed data-access code faster with less manual boilerplate.</Description>
+		<Icon>dapper_classmate.ico</Icon>
+		<PreviewImage>dapper_classmate.ico</PreviewImage>
+	</Metadata>
+	<Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+			<ProductArchitecture>amd64</ProductArchitecture>
+		</InstallationTarget>
+	</Installation>
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+	</Dependencies>
+	<Prerequisites>
+		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+	</Prerequisites>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+	</Assets>
+</PackageManifest>
