@@ -33,6 +33,24 @@ Writing repetitive data-access code is slow and error-prone. Dapper ClassMate sc
 4. Click **Generate**.
 5. Copy the generated code into your project.
 
+## Screenshots
+
+### Visual Studio Command
+
+![Visual Studio context menu showing the Generate Dapper ClassMate Code command](Dapper%20ClassMate/docs/images/Screenshot%202026-06-01%20055324.png)
+
+### SQL Server Connection Builder
+
+![SQL Server connection builder dialog](Dapper%20ClassMate/docs/images/Screenshot%202026-06-01%20055520.png)
+
+### Stored Procedure Generation
+
+![Dapper ClassMate window generating code for a stored procedure](Dapper%20ClassMate/docs/images/Screenshot%202026-06-01%20055647.png)
+
+### Table CRUD Generation
+
+![Dapper ClassMate window generating CRUD code for a table](Dapper%20ClassMate/docs/images/Screenshot%202026-06-01%20055740.png)
+
 ## Publisher
 
 George Hendrickson
